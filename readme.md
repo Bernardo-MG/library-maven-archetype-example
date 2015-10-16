@@ -98,8 +98,8 @@ The project has been released under the [MIT License][license].
 [bintray-repo]: https://bintray.com/bernardo-mg/maven/library-maven-archetype-example/view
 [maven-repo]: http://mvnrepository.com/artifact/com.wandrell/library-maven-archetype-example
 [issues]: https://github.com/bernardo-mg/library-maven-archetype-example/issues
-[javadoc-develop]: http://docs.wandrell.com/development/maven/library-maven-archetype-example/apidocs
-[javadoc-release]: http://docs.wandrell.com/maven/library-maven-archetype-example/apidocs
+[javadoc-develop]: http://docs.wandrell.com/maven/library-maven-archetype-example/apidocs
+[javadoc-release]: http://docs.wandrell.com/development/maven/library-maven-archetype-example/apidocs
 [license]: http://www.opensource.org/licenses/mit-license.php
 [scm]: https://github.com/bernardo-mg/library-maven-archetype-example
 [site-develop]: http://docs.wandrell.com/development/maven/library-maven-archetype-example
