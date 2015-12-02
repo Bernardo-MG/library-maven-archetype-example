@@ -21,6 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+
 package com.wandrell.library_maven_archetype_example;
 
 /**
@@ -32,6 +33,7 @@ package com.wandrell.library_maven_archetype_example;
  * 
  * @author Bernardo Martínez Garrido
  */
+
 public final class Greeter {
 
     /**
