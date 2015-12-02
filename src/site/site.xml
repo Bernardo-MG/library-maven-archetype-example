@@ -13,7 +13,7 @@
 		<skinConfig>
 			<keywords>Maven, Java, library</keywords>
 			<descriptionUrl>Check the documentation for Basic Maven Project</descriptionUrl>
-			<twitterSite>@Wandrell_BMG</twitterSite>
+			<twitterSite>@bmg</twitterSite>
 			<interpreters>
 				<interpreter>JDK 7</interpreter>
 				<interpreter>JDK 8</interpreter>

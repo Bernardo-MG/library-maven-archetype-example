@@ -21,6 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+
 package com.wandrell.library_maven_archetype_example.testing.test.integration;
 
 import org.testng.Assert;
@@ -36,18 +37,17 @@ import com.wandrell.library_maven_archetype_example.Greeter;
  * <li>The {@code Greeter} returns a greeting.</li>
  * </ol>
  * <p>
- * This is actually a placeholder test. Also it is not an integration test, 
- * but a unit one, still it serves just as a placeholder.
+ * This is actually a placeholder test for the integration tests suite.
  * 
  * @author Bernardo Martínez Garrido
  *
  */
-public final class ITUnit {
+public final class ITGreeter {
 
     /**
      * Constructs the tests.
      */
-    public ITUnit() {
+    public ITGreeter() {
         super();
     }
 
