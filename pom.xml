@@ -20,7 +20,7 @@
 
 	<groupId>com.wandrell</groupId>
 	<artifactId>library-maven-archetype-example</artifactId>
-	<version>0.1.0-SNAPSHOT</version>
+	<version>0.1.0</version>
 	<packaging>jar</packaging>
 
 	<name>Basic Maven Project</name>
