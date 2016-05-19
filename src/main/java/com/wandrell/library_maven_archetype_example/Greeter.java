@@ -1,7 +1,7 @@
 /**
  * The MIT License (MIT)
  * <p>
- * Copyright (c) 2015 the original author or authors.
+ * Copyright (c) 2016 the original author or authors.
  * <p>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -30,14 +30,14 @@ package com.wandrell.library_maven_archetype_example;
  * This is just a placeholder class which may be safely removed.
  * <p>
  * Pay attention to the fact that this is used on the placeholder tests too
- * 
+ *
  * @author Bernardo Martínez Garrido
  */
 
 public final class Greeter {
 
     /**
-     * Constructs a {@code Greeter}.
+     * Default constructor.
      */
     public Greeter() {
         super();
@@ -45,7 +45,7 @@ public final class Greeter {
 
     /**
      * Returns a greeting.
-     * 
+     *
      * @return a greeting
      */
     public String sayHello() {
