@@ -32,11 +32,6 @@ import com.wandrell.library_maven_archetype_example.Greeter;
 /**
  * Unit tests for {@link Greeter}.
  * <p>
- * Checks the following cases:
- * <ol>
- * <li>The {@code Greeter} returns a greeting.</li>
- * </ol>
- * <p>
  * This is just a placeholder test for the unit tests suite.
  *
  * @author Bernardo Martínez Garrido
