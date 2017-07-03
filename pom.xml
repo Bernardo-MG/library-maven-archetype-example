@@ -11,7 +11,7 @@
    <parent>
       <groupId>com.wandrell.maven</groupId>
       <artifactId>base-pom</artifactId>
-      <version>1.0.5</version>
+      <version>1.1.0</version>
    </parent>
 
    <!-- ********************************************** -->
@@ -25,7 +25,7 @@
 
    <name>Basic Maven Project</name>
    <description>A Maven project created from the library archetype.</description>
-   <url>https://github.com/bernardo-mg/library-maven-archetype-example</url>
+   <url>https://github.com/bernardo-mg/library-maven-archetype-example2</url>
    <inceptionYear>2016</inceptionYear>
 
    <licenses>
@@ -41,20 +41,20 @@
    <!-- ********************************************** -->
 
    <scm>
-      <connection>scm:git:https://github.com/bernardo-mg/library-maven-archetype-example.git</connection>
-      <developerConnection>scm:git:https://github.com/bernardo-mg/library-maven-archetype-example.git</developerConnection>
+      <connection>scm:git:https://github.com/bernardo-mg/library-maven-archetype-example2.git</connection>
+      <developerConnection>scm:git:https://github.com/bernardo-mg/library-maven-archetype-example2.git</developerConnection>
       <tag>head</tag>
-      <url>https://www.github.com/bernardo-mg/library-maven-archetype-example</url>
+      <url>https://www.github.com/bernardo-mg/library-maven-archetype-example2</url>
    </scm>
 
    <issueManagement>
       <system>GitHub</system>
-      <url>https://www.github.com/bernardo-mg/library-maven-archetype-example/issues</url>
+      <url>https://www.github.com/bernardo-mg/library-maven-archetype-example2/issues</url>
    </issueManagement>
 
    <ciManagement>
       <system>Travis CI</system>
-      <url>https://travis-ci.org/bernardo-mg/library-maven-archetype-example</url>
+      <url>https://travis-ci.org/bernardo-mg/library-maven-archetype-example2</url>
       <notifiers />
    </ciManagement>
 
@@ -63,7 +63,7 @@
          <uniqueVersion>false</uniqueVersion>
          <id>releases</id>
          <name>Releases Repository</name>
-         <url>https://api.bintray.com/maven/bernardo-mg/maven/library-maven-archetype-example</url>
+         <url>https://api.bintray.com/maven/bernardo-mg/maven/library-maven-archetype-example2</url>
       </repository>
       <snapshotRepository>
          <uniqueVersion>false</uniqueVersion>
@@ -130,7 +130,7 @@
             <site>
                <id>site</id>
                <name>Project Documentation Site</name>
-               <url>ftp://docs.wandrell.com/library-maven-archetype-example</url>
+               <url>scp://docs.wandrell.com/library-maven-archetype-example2</url>
             </site>
          </distributionManagement>
       </profile>
@@ -142,7 +142,7 @@
             <site>
                <id>site-development</id>
                <name>Project Development Documentation Site</name>
-               <url>ftp://docs.wandrell.com/library-maven-archetype-example</url>
+               <url>scp://docs.wandrell.com/library-maven-archetype-example2</url>
             </site>
          </distributionManagement>
       </profile>
@@ -188,7 +188,7 @@
 
    <properties>
       <!-- Manifest data -->
-      <manifest.name>com/wandrell/util/library_maven_archetype_example</manifest.name>
+      <manifest.name>com/wandrell/library_maven_archetype_example2</manifest.name>
       <!-- Dependencies versions -->
       <guava.version>19.0</guava.version>
       <log4j.version>2.6.2</log4j.version>
@@ -196,11 +196,10 @@
       <testng.version>6.9.10</testng.version>
       <!-- Plugins versions -->
       <plugin.changes.version>2.12</plugin.changes.version>
-      <plugin.site.velocity.version>1.7</plugin.site.velocity.version>
       <!-- Maven Site -->
-      <site.skin.version>0.4.0</site.skin.version>
-      <bintrayURL>https://bintray.com/bernardo-mg/maven/library-maven-archetype-example/view</bintrayURL>
-      <mavenURL>http://mvnrepository.com/artifact/com.wandrell.util/library-maven-archetype-example</mavenURL>
+      <site.skin.version>0.5.0</site.skin.version>
+      <bintrayURL>https://bintray.com/bernardo-mg/maven/library-maven-archetype-example2/view</bintrayURL>
+      <mavenURL>http://mvnrepository.com/artifact/com.wandrell/library-maven-archetype-example2</mavenURL>
    </properties>
 
    <!-- ********************************************** -->
@@ -305,12 +304,6 @@
                   <groupId>com.wandrell.maven.skins</groupId>
                   <artifactId>docs-maven-skin</artifactId>
                   <version>${site.skin.version}</version>
-               </dependency>
-               <dependency>
-                  <!-- Velocity -->
-                  <groupId>org.apache.velocity</groupId>
-                  <artifactId>velocity</artifactId>
-                  <version>${plugin.site.velocity.version}</version>
                </dependency>
             </dependencies>
          </plugin>

@@ -12,8 +12,8 @@ Before beginning the work on the new project there are a few things which should
 
 Note that the Maven site is using the [Docs Maven Skin](https://github.com/Bernardo-MG/docs-maven-skin), which will have a few configuration requirements of its own.
 
-[![Maven Central](https://img.shields.io/maven-central/v/com.wandrell.util/library-maven-archetype-example.svg)][maven-repo]
-[![Bintray](https://api.bintray.com/packages/bernardo-mg/maven/library-maven-archetype-example/images/download.svg)][bintray-repo]
+[![Maven Central](https://img.shields.io/maven-central/v/com.wandrell/library-maven-archetype-example2.svg)][maven-repo]
+[![Bintray](https://api.bintray.com/packages/bernardo-mg/maven/library-maven-archetype-example2/images/download.svg)][bintray-repo]
 
 [![Release docs](https://img.shields.io/badge/docs-release-blue.svg)][site-release]
 [![Development docs](https://img.shields.io/badge/docs-develop-blue.svg)][site-develop]
@@ -95,12 +95,12 @@ If you wish to fork or modify the code, visit the [GitHub project page][scm], wh
 
 The project has been released under the [MIT License][license].
 
-[bintray-repo]: https://bintray.com/bernardo-mg/maven/library-maven-archetype-example/view
-[maven-repo]: http://mvnrepository.com/artifact/com.wandrell.util/library-maven-archetype-example
-[issues]: https://github.com/bernardo-mg/library-maven-archetype-example/issues
-[javadoc-develop]: http://docs.wandrell.com/development/maven/library-maven-archetype-example/apidocs
-[javadoc-release]: http://docs.wandrell.com/maven/library-maven-archetype-example/apidocs
+[bintray-repo]: https://bintray.com/bernardo-mg/maven/library-maven-archetype-example2/view
+[maven-repo]: http://mvnrepository.com/artifact/com.wandrell/library-maven-archetype-example2
+[issues]: https://github.com/bernardo-mg/library-maven-archetype-example2/issues
+[javadoc-develop]: http://docs.wandrell.com/development/maven/library-maven-archetype-example2/apidocs
+[javadoc-release]: http://docs.wandrell.com/maven/library-maven-archetype-example2/apidocs
 [license]: http://www.opensource.org/licenses/mit-license.php
-[scm]: https://github.com/bernardo-mg/library-maven-archetype-example
-[site-develop]: http://docs.wandrell.com/development/maven/library-maven-archetype-example
-[site-release]: http://docs.wandrell.com/maven/library-maven-archetype-example
+[scm]: https://github.com/bernardo-mg/library-maven-archetype-example2
+[site-develop]: http://docs.wandrell.com/development/maven/library-maven-archetype-example2
+[site-release]: http://docs.wandrell.com/maven/library-maven-archetype-example2
