@@ -31,7 +31,7 @@ package com.wandrell.library_maven_archetype_example;
  * <p>
  * Pay attention to the fact that this is used on the placeholder tests too
  *
- * @author Bernardo Martínez Garrido
+ * @author Bernardo Mart&iacute;nez Garrido
  */
 
 public final class Greeter {

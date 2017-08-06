@@ -34,7 +34,7 @@ import com.wandrell.library_maven_archetype_example.Greeter;
  * <p>
  * This is just a placeholder test for the unit tests suite.
  *
- * @author Bernardo Martínez Garrido
+ * @author Bernardo Mart&iacute;nez Garrido
  *
  */
 public final class TestGreeter {
