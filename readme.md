@@ -2,17 +2,17 @@
 
 This is a basic Maven-based Java project created with the use of the [Library Maven Archetype](https://github.com/Bernardo-MG/library-maven-archetype). It will ease the development of new libraries, setting it up for CI through the use of three free services: [Github](https://github.com/), [Travis](https://travis-ci.org) and [Bintray](https://bintray.com/).
 
-Before beginning the work on the new project there are a few things which should be edited:
+Before beginning with the new project there are a few things which should be edited:
 
 - This readme's description has to be adapted to the new project.
 - Project info on the POM should be checked.
 - The various links on the readme, POM and Maven site (for repositories, issues, etc) should be verified.
 - The documentation on the project's [Maven Site](https://maven.apache.org/plugins/maven-site-plugin/) has to be written.
-- The license, if not using the MIT one, should be modified. Remember that this is referenced on the POM, readme and LICENSE files.
+- The license, if not using the MIT one, should be changed. Remember that this is referenced on the POM, readme and LICENSE files.
 
 Note that the Maven site is using the [Docs Maven Skin](https://github.com/Bernardo-MG/docs-maven-skin), which will have a few configuration requirements of its own.
 
-[![Maven Central](https://img.shields.io/maven-central/v/com.wandrell/library-maven-archetype-example.svg)][maven-repo]
+[![Maven Central](https://img.shields.io/maven-central/v/com.wandrell.example/library-maven-archetype-example.svg)][maven-repo]
 [![Bintray](https://api.bintray.com/packages/bernardo-mg/maven/library-maven-archetype-example/images/download.svg)][bintray-repo]
 
 [![Release docs](https://img.shields.io/badge/docs-release-blue.svg)][site-release]
@@ -62,7 +62,6 @@ It is a Java library, meant to be included as a dependency on any project which 
 ### Prerequisites
 
 The project has been tested on the following Java versions:
-* JDK 7
 * JDK 8
 * OpenJDK 7
 
@@ -98,7 +97,7 @@ If you wish to fork or modify the code, visit the [GitHub project page][scm], wh
 The project has been released under the [MIT License][license].
 
 [bintray-repo]: https://bintray.com/bernardo-mg/maven/library-maven-archetype-example/view
-[maven-repo]: http://mvnrepository.com/artifact/com.wandrell/library-maven-archetype-example
+[maven-repo]: http://mvnrepository.com/artifact/com.wandrell.example/library-maven-archetype-example
 [issues]: https://github.com/bernardo-mg/library-maven-archetype-example/issues
 [javadoc-develop]: http://docs.wandrell.com/development/maven/library-maven-archetype-example/apidocs
 [javadoc-release]: http://docs.wandrell.com/maven/library-maven-archetype-example/apidocs

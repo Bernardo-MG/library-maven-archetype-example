@@ -8,19 +8,16 @@
 
     <Appenders>
         <Console name="console" target="SYSTEM_OUT">
-            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+            <PatternLayout pattern="[%p] %d %c %M - %m%n" />
         </Console>
 
         <File name="file" fileName="${filename}">
-            <PatternLayout>
-                <Pattern>%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n
-                </Pattern>
-            </PatternLayout>
+            <PatternLayout pattern="[%p] %d %c %M - %m%n" />
         </File>
     </Appenders>
 
     <Loggers>
-        <Logger name="com.wandrell" level="debug" additivity="false">
+        <Logger name="com.wandrell.example" level="debug" additivity="false">
             <AppenderRef ref="file" />
         </Logger>
 

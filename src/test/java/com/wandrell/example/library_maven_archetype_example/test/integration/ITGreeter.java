@@ -21,8 +21,37 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-/**
- * Provides placeholder unit tests.
- */
-package com.wandrell.library_maven_archetype_example.test.unit;
 
+package com.wandrell.example.library_maven_archetype_example.test.integration;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import com.wandrell.example.library_maven_archetype_example.Greeter;
+
+/**
+ * Integration tests for {@link Greeter}.
+ * <p>
+ * This is actually a placeholder test for the integration tests suite.
+ *
+ * @author Bernardo Martínez Garrido
+ *
+ */
+public final class ITGreeter {
+
+    /**
+     * Default constructor.
+     */
+    public ITGreeter() {
+        super();
+    }
+
+    /**
+     * Tests that the {@code Greeter} returns a greeting.
+     */
+    @Test
+    public final void sayHello() {
+        Assert.assertEquals("Hello World!", new Greeter().sayHello());
+    }
+
+}

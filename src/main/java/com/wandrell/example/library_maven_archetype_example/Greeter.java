@@ -22,36 +22,34 @@
  * SOFTWARE.
  */
 
-package com.wandrell.library_maven_archetype_example.test.unit;
-
-import org.testng.Assert;
-import org.testng.annotations.Test;
-
-import com.wandrell.library_maven_archetype_example.Greeter;
+package com.wandrell.example.library_maven_archetype_example;
 
 /**
- * Unit tests for {@link Greeter}.
+ * Greeter class.
  * <p>
- * This is just a placeholder test for the unit tests suite.
+ * This is just a placeholder class which may be safely removed.
+ * <p>
+ * Pay attention to the fact that this is used on the placeholder tests too
  *
- * @author Bernardo Mart&iacute;nez Garrido
- *
+ * @author Bernardo Martínez Garrido
  */
-public final class TestGreeter {
+
+public final class Greeter {
 
     /**
      * Default constructor.
      */
-    public TestGreeter() {
+    public Greeter() {
         super();
     }
 
     /**
-     * Tests that the {@code Greeter} returns a greeting.
+     * Returns a greeting.
+     *
+     * @return a greeting
      */
-    @Test
-    public final void sayHello() {
-        Assert.assertEquals("Hello World!", new Greeter().sayHello());
+    public String sayHello() {
+        return "Hello World!";
     }
 
 }
