@@ -22,27 +22,27 @@
  * SOFTWARE.
  */
 
-package com.wandrell.example.library_maven_archetype_example.test.unit;
+package com.bernardomg.example.library_maven_archetype_example.test.integration;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.wandrell.example.library_maven_archetype_example.Greeter;
+import com.bernardomg.example.library_maven_archetype_example.Greeter;
 
 /**
- * Unit tests for {@link Greeter}.
+ * Integration tests for {@link Greeter}.
  * <p>
- * This is just a placeholder test for the unit tests suite.
+ * This is actually a placeholder test for the integration tests suite.
  *
  * @author Bernardo Martínez Garrido
  *
  */
-public final class TestGreeter {
+public final class ITGreeter {
 
     /**
      * Default constructor.
      */
-    public TestGreeter() {
+    public ITGreeter() {
         super();
     }
 

@@ -24,5 +24,5 @@
 /**
  * Provides placeholder integration tests.
  */
-package com.wandrell.example.library_maven_archetype_example.test.integration;
+package com.bernardomg.example.library_maven_archetype_example.test.integration;
 

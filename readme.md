@@ -12,7 +12,7 @@ Before beginning with the new project there are a few things which should be edi
 
 Note that the Maven site is using the [Docs Maven Skin](https://github.com/Bernardo-MG/docs-maven-skin), which will have a few configuration requirements of its own.
 
-[![Maven Central](https://img.shields.io/maven-central/v/com.wandrell.example/library-maven-archetype-example.svg)][maven-repo]
+[![Maven Central](https://img.shields.io/maven-central/v/com.bernardomg.example/library-maven-archetype-example.svg)][maven-repo]
 [![Bintray](https://api.bintray.com/packages/bernardo-mg/maven/library-maven-archetype-example/images/download.svg)][bintray-repo]
 
 [![Release docs](https://img.shields.io/badge/docs-release-blue.svg)][site-release]
@@ -26,7 +26,7 @@ Note that the Maven site is using the [Docs Maven Skin](https://github.com/Berna
 The project by default comes with a useful series of features:
 
 - Preconfigured POM to begin developing a new library fast.
-- Prepared for [Travis CI](https://travis-ci.org/), including configuration files and deployment scripts. Check the [Archetype documentation](http://docs.wandrell.com/maven/library-maven-archetype) to find out more.
+- Prepared for [Travis CI](https://travis-ci.org/), including configuration files and deployment scripts. Check the [Archetype documentation](http://docs.bernardomg.com/maven/library-maven-archetype) to find out more.
 - Unit and integration tests suites ready to be run with [TestNG](http://testng.org/) just by using the Maven test and verify commands.
 - A Maven site, using the [Docs Maven Skin](https://github.com/Bernardo-MG/docs-maven-skin), to contain the documentation, the Javadocs and several reports.
 - A bunch of useful files, such as readme, gitignore and gitattributes.
@@ -97,11 +97,11 @@ If you wish to fork or modify the code, visit the [GitHub project page][scm], wh
 The project has been released under the [MIT License][license].
 
 [bintray-repo]: https://bintray.com/bernardo-mg/maven/library-maven-archetype-example/view
-[maven-repo]: http://mvnrepository.com/artifact/com.wandrell.example/library-maven-archetype-example
+[maven-repo]: http://mvnrepository.com/artifact/com.bernardomg.example/library-maven-archetype-example
 [issues]: https://github.com/bernardo-mg/library-maven-archetype-example/issues
-[javadoc-develop]: http://docs.wandrell.com/development/maven/library-maven-archetype-example/apidocs
-[javadoc-release]: http://docs.wandrell.com/maven/library-maven-archetype-example/apidocs
+[javadoc-develop]: http://docs.bernardomg.com/development/maven/library-maven-archetype-example/apidocs
+[javadoc-release]: http://docs.bernardomg.com/maven/library-maven-archetype-example/apidocs
 [license]: http://www.opensource.org/licenses/mit-license.php
 [scm]: https://github.com/bernardo-mg/library-maven-archetype-example
-[site-develop]: http://docs.wandrell.com/development/maven/library-maven-archetype-example
-[site-release]: http://docs.wandrell.com/maven/library-maven-archetype-example
+[site-develop]: http://docs.bernardomg.com/development/maven/library-maven-archetype-example
+[site-release]: http://docs.bernardomg.com/maven/library-maven-archetype-example

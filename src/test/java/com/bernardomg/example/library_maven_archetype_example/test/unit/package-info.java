@@ -22,7 +22,7 @@
  * SOFTWARE.
  */
 /**
- * Provides placeholder classes.
+ * Provides placeholder unit tests.
  */
-package com.wandrell.example.library_maven_archetype_example;
+package com.bernardomg.example.library_maven_archetype_example.test.unit;
 
