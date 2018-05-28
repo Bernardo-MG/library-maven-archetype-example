@@ -24,8 +24,8 @@
 
 package com.bernardomg.example.library_maven_archetype_example.test.integration;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
+import org.junit.Assert;
+import org.junit.Test;
 
 import com.bernardomg.example.library_maven_archetype_example.Greeter;
 
