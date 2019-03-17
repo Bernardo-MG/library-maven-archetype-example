@@ -63,7 +63,6 @@ It is a Java library, meant to be included as a dependency on any project which 
 
 The project has been tested on the following Java versions:
 * JDK 8
-* OpenJDK 7
 
 All other dependencies are handled through Maven, and noted in the included POM file.
 
@@ -99,9 +98,9 @@ The project has been released under the [MIT License][license].
 [bintray-repo]: https://bintray.com/bernardo-mg/maven/library-maven-archetype-example/view
 [maven-repo]: http://mvnrepository.com/artifact/com.bernardomg.example/library-maven-archetype-example
 [issues]: https://github.com/bernardo-mg/library-maven-archetype-example/issues
-[javadoc-develop]: https:///library-maven-archetype-example/apidocs
-[javadoc-release]: https:///library-maven-archetype-example/apidocs
+[javadoc-develop]: https://docs.bernardomg.com/development/maven/library-maven-archetype-example/apidocs
+[javadoc-release]: https://docs.bernardomg.com/development/maven/library-maven-archetype-example/apidocs
 [license]: http://www.opensource.org/licenses/mit-license.php
 [scm]: https://github.com/bernardo-mg/library-maven-archetype-example
-[site-develop]: https:///library-maven-archetype-example
-[site-release]: https:///library-maven-archetype-example
+[site-develop]: https://docs.bernardomg.com/development/maven/library-maven-archetype-example
+[site-release]: https://docs.bernardomg.com/development/maven/library-maven-archetype-example
