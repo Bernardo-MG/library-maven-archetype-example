@@ -211,7 +211,7 @@
       <!-- ============================================== -->
       <!-- ================= MAVEN SITE ================= -->
       <!-- ============================================== -->
-      <site.skin.version>1.4.0</site.skin.version>
+      <site.skin.version>1.4.1-SNAPSHOT</site.skin.version>
       <bintrayURL>https://bintray.com/bernardo-mg/maven/library-maven-archetype-example/view</bintrayURL>
       <mavenURL>http://mvnrepository.com/artifact/${project.groupId}/${project.artifactId}</mavenURL>
    </properties>
