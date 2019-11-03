@@ -1,5 +1,6 @@
 # Reports
 
+## Tests
 
 |Report|Description|
 |---|---|
@@ -7,6 +8,7 @@
 |[Failsafe][failsafe]|Integration tests report.|
 |[JaCoCo][jacoco]|Tests coverage report.|
 
+## Code Quality
 
 |Report|Description|
 |---|---|
@@ -17,6 +19,7 @@
 |[JDepend][jdepend]|Quality metrics for the project.|
 |[Tag list][taglist]|List of warning tags found on the code.|
 
+## Dependencies
 
 |Report|Description|
 |---|---|
@@ -25,6 +28,7 @@
 |[Plugins][plugins]|Maven plugins used by the project.|
 |[Plugins Management][plugins-manage]|Maven plugins that are defined through pluginManagement.|
 
+## Other
 
 |Report|Description|
 |---|---|

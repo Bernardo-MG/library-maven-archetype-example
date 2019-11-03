@@ -1,4 +1,5 @@
-# Setting up the dependencies
+#set( $symbol_pound = '#' )
+${symbol_pound} Setting up the dependencies
 
 The project files are hosted on a [Bintray repository][bintray-repo], and have been replicated on JCenter and OSS Sonatype, which also replicates into the [Maven Central Repository][maven-repo].
 
