@@ -100,7 +100,7 @@ The project has been released under the [MIT License][license].
 [issues]: https://github.com/bernardo-mg/library-maven-archetype-example/issues
 [javadoc-develop]: https:///library-maven-archetype-example/apidocs
 [javadoc-release]: https:///library-maven-archetype-example/apidocs
-[license]: http://www.opensource.org/licenses/mit-license.php
+[license]: https://www.opensource.org/licenses/mit-license.php
 [scm]: https://github.com/bernardo-mg/library-maven-archetype-example
 [site-develop]: https:///library-maven-archetype-example
 [site-release]: https:///library-maven-archetype-example
