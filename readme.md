@@ -61,10 +61,7 @@ It is a Java library, meant to be included as a dependency on any project which 
 
 ### Prerequisites
 
-The project has been tested on the following Java versions:
-* JDK 8
-
-All other dependencies are handled through Maven, and noted in the included POM file.
+JDK 8 or higher is required. All other dependencies are handled through Maven, and noted in the included POM file.
 
 ### Installing
 
