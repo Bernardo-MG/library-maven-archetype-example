@@ -27,7 +27,6 @@ package com.bernardomg.example.library_maven_archetype_example.test.integration;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.platform.runner.JUnitPlatform;
-import org.junit.runner.RunWith;
 
 import com.bernardomg.example.library_maven_archetype_example.Greeter;
 
@@ -39,7 +38,6 @@ import com.bernardomg.example.library_maven_archetype_example.Greeter;
  * @author Bernardo Martínez Garrido
  *
  */
-@RunWith(JUnitPlatform.class)
 public final class ITGreeter {
 
     /**

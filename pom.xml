@@ -5,13 +5,13 @@
    <modelVersion>4.0.0</modelVersion>
 
    <!-- ********************************************** -->
-   <!-- ***************** PARENT POM ***************** -->
+   <!-- ****************** BASE POM ****************** -->
    <!-- ********************************************** -->
 
    <parent>
       <groupId>com.bernardomg.maven</groupId>
       <artifactId>base-pom</artifactId>
-      <version>1.4.3</version>
+      <version>1.5.0</version>
    </parent>
 
    <!-- ********************************************** -->
@@ -35,6 +35,31 @@
          <distribution>repo</distribution>
       </license>
    </licenses>
+
+   <!-- ********************************************** -->
+   <!-- *********** ORGANIZATION AND MEMBERS ********* -->
+   <!-- ********************************************** -->
+
+   <organization>
+      <name>Bernardo Martínez Garrido</name>
+      <url>https://github.com/Bernardo-MG</url>
+   </organization>
+
+   <developers>
+      <developer>
+         <id>bmg</id>
+         <name>Bernardo Martínez Garrido</name>
+         <email>programming@bernardomg.com</email>
+         <url>https://github.com/Bernardo-MG</url>
+         <organization>Bernardo Martínez Garrido</organization>
+         <organizationUrl>https://github.com/Bernardo-MG</organizationUrl>
+         <roles>
+            <role>Developer</role>
+         </roles>
+         <timezone>+1</timezone>
+         <properties />
+      </developer>
+   </developers>
 
    <!-- ********************************************** -->
    <!-- ************ RESOURCES AND SERVICES ********** -->
@@ -106,11 +131,11 @@
       <!-- ============ DEPLOYMENT PROFILES ============= -->
       <!-- ============================================== -->
       <profile>
-         <!-- Release deployment profile. -->
-         <!-- Sets the site repository to point to the releases repo. -->
-         <id>deployment-release</id>
+         <!-- Site deployment profile -->
+         <!-- Sets the site repository to point to the releases repo -->
+         <id>deployment-site</id>
          <activation>
-            <!-- Active by default so the repository appears in the reports. -->
+            <!-- Active by default so the repository appears in the reports -->
             <activeByDefault>true</activeByDefault>
          </activation>
          <distributionManagement>
@@ -118,31 +143,9 @@
                <id>site</id>
                <name>Project Documentation Site</name>
                <!-- The URL should be set externally -->
-               <url>${site.release.url}</url>
+               <url>${site.url}</url>
             </site>
          </distributionManagement>
-      </profile>
-      <profile>
-         <!-- Development deployment profile. -->
-         <!-- Sets the site repository to point to the development repo. -->
-         <id>deployment-development</id>
-         <distributionManagement>
-            <site>
-               <id>site-development</id>
-               <name>Project Development Documentation Site</name>
-               <!-- The URL should be set externally -->
-               <url>${site.develop.url}</url>
-            </site>
-         </distributionManagement>
-      </profile>
-      <profile>
-         <!-- Deployment profile. -->
-         <!-- Sets ups the environment for deployment. -->
-         <id>deployment</id>
-         <properties>
-            <!-- Tests are skipped. -->
-            <maven.test.skip>true</maven.test.skip>
-         </properties>
       </profile>
       <profile>
          <!-- Github deployment profile. -->
@@ -152,7 +155,7 @@
                <!-- Github repository -->
                <id>github</id>
                <name>GitHub Packages</name>
-               <url>https://maven.pkg.github.com/bernardo-mg/library-maven-archetype-example</url>
+               <url>https://maven.pkg.github.com/Bernardo-MG/dice-notation-java</url>
             </repository>
          </distributionManagement>
       </profile>
@@ -202,39 +205,10 @@
    </profiles>
 
    <!-- ********************************************** -->
-   <!-- *********** ORGANIZATION AND MEMBERS ********* -->
-   <!-- ********************************************** -->
-
-   <organization>
-      <name>Bernardo Martínez Garrido</name>
-      <url>https://github.com/Bernardo-MG</url>
-   </organization>
-
-   <developers>
-      <developer>
-         <id>bmg</id>
-         <name>Bernardo Martínez Garrido</name>
-         <email>programming@bernardomg.com</email>
-         <url>https://github.com/Bernardo-MG</url>
-         <organization>Bernardo Martínez Garrido</organization>
-         <organizationUrl>https://github.com/Bernardo-MG</organizationUrl>
-         <roles>
-            <role>Developer</role>
-         </roles>
-         <timezone>+1</timezone>
-         <properties />
-      </developer>
-   </developers>
-
-   <!-- ********************************************** -->
    <!-- **************** PROPERTIES ****************** -->
    <!-- ********************************************** -->
 
    <properties>
-      <!-- ============================================== -->
-      <!-- ================ JAVA VERSION ================ -->
-      <!-- ============================================== -->
-      <java.version>1.8</java.version>
       <!-- ============================================== -->
       <!-- =============== MANIFEST DATA ================ -->
       <!-- ============================================== -->
@@ -242,15 +216,14 @@
       <!-- ============================================== -->
       <!-- =========== DEPENDENCIES VERSIONS ============ -->
       <!-- ============================================== -->
-      <guava.version>29.0-jre</guava.version>
-      <junit.jupiter.version>5.6.2</junit.jupiter.version>
-      <mockito.version>3.3.3</mockito.version>
-      <log4j.version>2.13.3</log4j.version>
-      <slf4j.version>2.0.0-alpha1</slf4j.version>
+      <junit.jupiter.version>5.8.2</junit.jupiter.version>
+      <mockito.version>4.2.0</mockito.version>
+      <log4j.version>2.17.1</log4j.version>
+      <slf4j.version>1.7.30</slf4j.version>
       <!-- ============================================== -->
       <!-- ================= MAVEN SITE ================= -->
       <!-- ============================================== -->
-      <site.skin.version>2.2.4</site.skin.version>
+      <site.skin.version>2.2.5</site.skin.version>
       <mavenURL>http://mvnrepository.com/artifact/${project.groupId}/${project.artifactId}</mavenURL>
       <githubArtifactURL><![CDATA[https://github.com/bernardo-mg?tab=packages&amp;repo_name={project.artifactId}]]></githubArtifactURL>
    </properties>
@@ -273,12 +246,6 @@
    </dependencyManagement>
 
    <dependencies>
-      <dependency>
-         <!-- Guava -->
-         <groupId>com.google.guava</groupId>
-         <artifactId>guava</artifactId>
-         <version>${guava.version}</version>
-      </dependency>
       <!-- ============================================== -->
       <!-- ================== LOGGERS =================== -->
       <!-- ============================================== -->
@@ -291,7 +258,7 @@
       <dependency>
          <!-- Log4j SLF4J Bridge -->
          <groupId>org.apache.logging.log4j</groupId>
-         <artifactId>log4j-slf4j18-impl</artifactId>
+         <artifactId>log4j-slf4j-impl</artifactId>
          <version>${log4j.version}</version>
          <scope>provided</scope>
       </dependency>
@@ -312,10 +279,23 @@
          <scope>test</scope>
       </dependency>
       <dependency>
+         <!-- JUnit Jupiter Params -->
+         <groupId>org.junit.jupiter</groupId>
+         <artifactId>junit-jupiter-params</artifactId>
+         <scope>test</scope>
+      </dependency>
+      <dependency>
          <!-- JUnit Jupiter Platform -->
          <groupId>org.junit.platform</groupId>
          <artifactId>junit-platform-runner</artifactId>
          <scope>test</scope>
+         <exclusions>
+            <exclusion>
+               <!-- JUnit 3 -->
+               <groupId>junit</groupId>
+               <artifactId>junit</artifactId>
+            </exclusion>
+         </exclusions>
       </dependency>
       <dependency>
          <!-- Mockito -->
