@@ -89,9 +89,9 @@ The project has been released under the [MIT License][license].
 
 [maven-repo]: https://mvnrepository.com/artifact/com.bernardomg.example/library-maven-archetype-example
 [issues]: https://github.com/bernardo-mg/library-maven-archetype-example/issues
-[javadoc-develop]: https:///library-maven-archetype-example/apidocs
-[javadoc-release]: https:///library-maven-archetype-example/apidocs
+[javadoc-develop]: https://docs.bernardomg.com/development/maven//library-maven-archetype-example/apidocs
+[javadoc-release]: https://docs.bernardomg.com/maven//library-maven-archetype-example/apidocs
 [license]: https://www.opensource.org/licenses/mit-license.php
 [scm]: https://github.com/bernardo-mg/library-maven-archetype-example
-[site-develop]: https:///library-maven-archetype-example
-[site-release]: https:///library-maven-archetype-example
+[site-develop]: https://docs.bernardomg.com/development/maven//library-maven-archetype-example
+[site-release]: https://docs.bernardomg.com/maven//library-maven-archetype-example
