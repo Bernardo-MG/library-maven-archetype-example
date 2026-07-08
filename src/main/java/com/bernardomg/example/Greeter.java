@@ -1,7 +1,7 @@
 /**
  * The MIT License (MIT)
  * <p>
- * Copyright (c) 2023 the original author or authors.
+ * Copyright (c) 2025 the original author or authors.
  * <p>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -22,36 +22,34 @@
  * SOFTWARE.
  */
 
-package com.bernardomg.example.library_maven_archetype_example.test.unit;
-
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
-
-import com.bernardomg.example.library_maven_archetype_example.Greeter;
+package com.bernardomg.example;
 
 /**
- * Unit tests for {@link Greeter}.
+ * Greeter class.
  * <p>
- * This is just a placeholder test for the unit tests suite.
+ * This is just a placeholder class which may be safely removed.
+ * <p>
+ * Pay attention to the fact that this is used on the placeholder tests too
  *
  * @author Bernardo Martínez Garrido
- *
  */
-public final class TestGreeter {
+
+public final class Greeter {
 
     /**
      * Default constructor.
      */
-    public TestGreeter() {
+    public Greeter() {
         super();
     }
 
     /**
-     * Tests that the {@code Greeter} returns a greeting.
+     * Returns a greeting.
+     *
+     * @return a greeting
      */
-    @Test
-    public final void sayHello() {
-        Assertions.assertEquals("Hello World!", new Greeter().sayHello());
+    public String sayHello() {
+        return "Hello World!";
     }
 
 }
